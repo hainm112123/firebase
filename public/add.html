@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>yuuhi</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.8.4/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.8.4/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.8.4/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.8.4/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.8.4/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.8.4/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.8.4/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.8.4/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.8.4/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.8.4/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  </head>
+
+  <body>
+    <a href="./index.html">Home page</a> <br> <br>
+
+    <div class="add-client-wrap">
+      <span class="client-name-wrap">
+        Name: 
+        <input type="text" class="name-input">
+      </span>
+
+      <span class="client-gender-wrap">
+        Gender: 
+        <select name="" id="" class="gender-input">
+          <option value=""></option>
+          <option value="male">male</option>
+          <option value="female">female</option>
+        </select>
+      </span>
+
+      <button class="add-btn">Add</button>
+    </div>
+
+    <script src="./add.js"></script>
+  </body>
+</html>
