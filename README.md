@@ -1,1 +1,1 @@
-just a simple web
+just a firebase demo
